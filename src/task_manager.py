@@ -1,3 +1,5 @@
+def get_all_tasks(tasks):
+    return tasks
 
 
 def add_task(tasks, title, description, priority, assignee):
