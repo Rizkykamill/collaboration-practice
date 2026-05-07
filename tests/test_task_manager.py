@@ -41,4 +41,4 @@ def test_add_task():
         "Sari"
     )
 
-    assert len(result) == 2
+    assert len(result) == 5
