@@ -1,3 +1,13 @@
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from src.task_manager import (
+    get_all_tasks,
+    add_task
+)
+
 from src.task_manager import (
     get_all_tasks,
     add_task
